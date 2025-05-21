@@ -74,4 +74,4 @@ yarn-error.log
 !.yarn/sdks
 !.yarn/versions
 # custome files
-Constants.js
+android/src/Components/Constant.js

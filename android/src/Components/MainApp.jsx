@@ -19,7 +19,7 @@ const HomeStack = () => (
     <Stack.Navigator screenOptions={{
         headerShown:
             false,
-        animation: 'fade_from_bottom', // Animation for stack navigation
+        animation: 'fade_from_bottom', 
     }}><Stack.Screen name='Splash' component={SplashScreen} />
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Details" component={Details} />
